@@ -6,11 +6,11 @@ import { ShoppingCart, X, CheckCircle, Info } from 'lucide-react'; // Importar i
 const productos = [
     {
         id: 1,
-        nombre: "demonio",
+        nombre: "Pasamontañas Demonio",
         precio: 399,
         // Se ha cambiado la importación local por una URL de placeholder para evitar errores de compilación
         // Si tienes la imagen "demonio.jpg" en "./assets/", puedes volver a usar: imagen: demonio,
-        imagen: "demonio",
+        imagen: demonio,
     },
     {
         id: 2,
