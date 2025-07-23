@@ -1,16 +1,16 @@
 import { useState, useEffect } from "react";
-// import demonio from "./assets/demonio.jpg"; // Asegúrate de que esta imagen exista o usa una URL
+import demonio from "./assets/demonio.jpg"; // Asegúrate de que esta imagen exista o usa una URL
 import { ShoppingCart, X, CheckCircle, Info } from 'lucide-react'; // Importar iconos de Lucide React
 
 // --- Datos de Productos (pueden venir de una API real) ---
 const productos = [
     {
         id: 1,
-        nombre: "Pasamontañas Demonio",
+        nombre: "demonio",
         precio: 399,
         // Se ha cambiado la importación local por una URL de placeholder para evitar errores de compilación
         // Si tienes la imagen "demonio.jpg" en "./assets/", puedes volver a usar: imagen: demonio,
-        imagen: "https://placehold.co/500x300/333333/FFFFFF?text=Pasamontanas+Demonio",
+        imagen: "demonio",
     },
     {
         id: 2,
